@@ -1,0 +1,25 @@
+{
+  "name": "programmingtest",
+  "version": "1.0.0",
+  "description": "Simple bracket matching program with chai unit tests",
+  "main": "programmingTest.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgerhartz/IsMatchingCurlyBrackets.git"
+  },
+  "keywords": [
+    "Programming"
+  ],
+  "author": "Adam Gerhartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamgerhartz/IsMatchingCurlyBrackets/issues"
+  },
+  "homepage": "https://github.com/adamgerhartz/IsMatchingCurlyBrackets#readme",
+  "dependencies": {
+    "mocha": "^9.0.3"
+  }
+}
