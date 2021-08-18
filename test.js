@@ -1,5 +1,5 @@
 const programmingTest = require("./isMatchingCurlyBrackets.js");
-var assert = require('assert');
+const assert = require('assert');
 
 
 describe('Unit Tests — isMatchingBrackets(str) function', () => {
