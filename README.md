@@ -11,14 +11,14 @@ This fully recursive function does the following:
 
 # How it works — detailed
 Finding bracket-pairs is from left to right:
-```
-"{{{}{}}}{}" , which recurses to
-"{{{}}}{}" , which recurses to
-"{{}}{}" , which recurses to
-"{}{}" , which recurses to
-"{}" , which recurses to
+<pre>
+"{{<b>{}</b>{}}}{}" , which recurses to
+"{{<b>{}</b>}}{}" , which recurses to
+"{<b>{}</b>}{}" , which recurses to
+"<b>{}</b>{}" , which recurses to
+"<b>{}</b>" , which recurses to
 "" 
-```
+</pre>
 Our base cases are: `str.length == 0` or `str.length == 1`
 
 # How to install and run on your local environment
