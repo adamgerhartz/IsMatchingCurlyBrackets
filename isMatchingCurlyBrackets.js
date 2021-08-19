@@ -30,7 +30,7 @@ function isMatchingBrackets(str) {
 		pFirst = str[++i];
 	}
 	// 1) exclude bracket-pair,
-	// 2) concat remaining right into remaning left, 
+	// 2) concat remaining right into remaining left, 
 	// 3) and run recursion
 	const remainingLeft  = str.slice(0, i - 1);  // left of opening bracket — "{""
 	const remainingRight = str.slice(i + 1);     // right of closing bracket — "}"
